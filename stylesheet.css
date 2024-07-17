@@ -1,0 +1,41 @@
+body{
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+#display{
+    background-color: greenyellow;
+    display: flex;
+    border: 1px solid black;
+}
+
+#buttons{
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 5px;
+}
